@@ -19,12 +19,7 @@ pipeline {
        }
     }
     
-   
-    
- 
-    
-    
- /* Mention url of ecr repository within the quotes in docker.withRegistry. The url must begin with https:// */
+/* Mention url of ecr repository within the quotes in docker.withRegistry. The url must begin with https:// */
  stage ('Docker push'){
       steps{
           script{
@@ -37,14 +32,7 @@ pipeline {
           
   }
   }
-  
-  
-  
-        
     
-    
-    
-    
-   }
+    }
 }
     
